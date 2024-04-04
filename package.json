@@ -1,0 +1,24 @@
+{
+  "name": "python_nodejs",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "name": "python_nodejs",
+    "type": "terminal"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js"
+  },
+  "dependencies": {
+    "b4a": "^1.6.6",
+    "bare-subprocess": "^2.0.6",
+    "hypercore-crypto": "^3.4.0",
+    "hyperswarm": "^4.7.14",
+    "pear-inspect": "^1.0.8"
+  }
+}
